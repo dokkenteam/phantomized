@@ -13,7 +13,7 @@ This build does not include the phantomjs binary itself so make it easier for ap
 Adding this line to your Dockerfile applies all files to your docker image. You can find a production example [here](https://github.com/Gravebot/Gravebot/blob/master/Dockerfile).
 
 ```bash
-curl -Ls "https://github.com/dokkenteam/phantomized/releases/download/2.1.1a/dockerized-phantomjs.tar.gz" | tar xz -C /
+curl -Ls "https://github.com/dokkenteam/phantomized/archive/refs/tags/2.1.1a.tar.gz" | tar xz -C /
 ```
 
 ## Build from source
